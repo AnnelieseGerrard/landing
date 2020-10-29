@@ -1,0 +1,38 @@
+
+.card-banner {
+  display: flex;
+  justify-content: center;
+  height: 180px;
+  align-items: center;
+  background-size: cover;
+  padding: 60px;
+  color: black;
+  font-size 24px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  flex-direction: column;
+}
+
+.card-banner img {
+  height: 150px;
+  object-fit: cover;
+}
+
+
+.btn-recruitment {
+  text-decoration: none;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 50px;
+  border: 1px solid white;
+  transition: 0.5s;
+  opacity: 0.6;
+}
+
+.btn-recruitment:hover {
+  border: 1px solid black;
+  opacity: 1;
+  text-decoration: none;
+  color: #999999;
+}

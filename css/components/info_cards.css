@@ -1,0 +1,58 @@
+.card-product {
+display: flex;
+background-color: #fff;
+align-items: center;
+background-size: cover;
+border-radius: 5px;
+box-shadow: 0 0 15px rgba(0,0,0,0.2);
+margin-bottom: 10px;
+width: 600px;
+height: 400px;
+}
+
+.card-product img {
+  width: 200px;
+  height: 100%;
+  margin-right: 16px;
+  margin-left: 0px;
+  object-fit: cover;
+
+}
+
+/*.card-product h2 {
+  margin: 0;
+}
+
+.card-product p {
+  margin: 0;
+}*/
+
+.card_container {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+
+.btn-recruitment_cv {
+  text-decoration: none;
+  color: black;
+  padding: 15px 25px;
+  border-radius: 50px;
+  border: 1px solid black;
+  transition: 0.5s;
+  opacity: 0.6;
+
+}
+
+.btn-recruitment_cv:hover {
+  border: 1px solid black;
+  opacity: 1;
+  text-decoration: none;
+  color: #999999;
+}
+
+.padding-button {
+  position: absolute;
+  right: 100px;
+  bottom: 50px;
+}
